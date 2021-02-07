@@ -1,8 +1,3 @@
-using myexample
-using Test
+using SafeTestsets
 
-@testset "myexample.jl" begin
-    @test my_f(2,3)==13
-    @test my_f(1,2)==8
-
-end
+@safetestset "My f test" begin include("my_test.jl") end
