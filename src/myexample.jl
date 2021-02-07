@@ -1,5 +1,5 @@
 module myexample
-
-# Write your package code here.
+include("func.jl")
+export my_f
 
 end

@@ -2,5 +2,6 @@ using myexample
 using Test
 
 @testset "myexample.jl" begin
-    # Write your tests here.
+    my_f(2,3)==12
+
 end

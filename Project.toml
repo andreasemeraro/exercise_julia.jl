@@ -3,6 +3,10 @@ uuid = "92f79caf-148c-463c-a00b-f356e4083511"
 authors = ["Andrea <andrea.semeraro.1596@gmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+Demo1 = "a26f729d-647b-470e-be47-d7fa7f14be71"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
 [compat]
 julia = "1"
 
